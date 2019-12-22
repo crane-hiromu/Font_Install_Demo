@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Font_Install_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUi-fF-ms1">
+                                <rect key="frame" x="186.5" y="433" width="41" height="30"/>
+                                <state key="normal" title="Install"/>
+                                <connections>
+                                    <action selector="install:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Kv-y1-qzC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W27-Le-Nd3">
+                                <rect key="frame" x="178" y="493" width="58" height="30"/>
+                                <state key="normal" title="unInstall"/>
+                                <connections>
+                                    <action selector="uninstall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nhL-Wb-pNQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="CUi-fF-ms1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1te-N9-xkx"/>
+                            <constraint firstItem="CUi-fF-ms1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AOc-uT-kLz"/>
+                            <constraint firstItem="W27-Le-Nd3" firstAttribute="centerX" secondItem="CUi-fF-ms1" secondAttribute="centerX" id="diT-18-RD8"/>
+                            <constraint firstItem="W27-Le-Nd3" firstAttribute="top" secondItem="CUi-fF-ms1" secondAttribute="bottom" constant="30" id="ids-bv-K2P"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="130"/>
+        </scene>
+    </scenes>
+</document>
