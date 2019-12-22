@@ -2,8 +2,8 @@
 
 ## Description
 
-Yout have to read.
-[iOS13とフォントのお話](https://qiita.com/H_Crane/items/a0a7a77f9d709e9692b6)
+Yout have to read
+[iOS13とフォントのお話](https://qiita.com/H_Crane/items/a0a7a77f9d709e9692b6).
 
 ## Review
 
