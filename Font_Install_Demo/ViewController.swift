@@ -55,7 +55,7 @@ class ViewController: UIViewController {
             if error == nil {
                 self?.installFont(fonts: fonts)
             } else {
-                print("error", error?.localizedDescription ?? "")
+                debugPrint("failure", error?.localizedDescription ?? "")
             }
             self?.resourceRequest?.endAccessingResources()
         }
