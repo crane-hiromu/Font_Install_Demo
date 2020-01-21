@@ -64,5 +64,18 @@
 	<array>
 		<string></string>
 	</array>
+	<key>FontProviderSubscriptionSupportInfo</key>
+	<dict>
+		<key>expire</key>
+		<integer>5</integer>
+		<key>scheme</key>
+		<string>scheme.expiration</string>
+		<key>test</key>
+		<true/>
+		<key>url</key>
+		<string>scheme</string>
+		<key>warn</key>
+		<integer>5</integer>
+	</dict>
 </dict>
 </plist>
