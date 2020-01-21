@@ -16,10 +16,40 @@
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>CFBundleURLName</key>
+			<string>FontDemo</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>FontDemo.expiration</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>FontProviderSubscriptionSupportInfo</key>
+	<dict>
+		<key>expire</key>
+		<integer>5</integer>
+		<key>scheme</key>
+		<string>FontDemo.expiration</string>
+		<key>test</key>
+		<true/>
+		<key>url</key>
+		<string>FontDemo</string>
+		<key>warn</key>
+		<integer>1</integer>
+	</dict>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string></string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -60,22 +90,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>UIAppFonts</key>
-	<array>
-		<string></string>
-	</array>
-	<key>FontProviderSubscriptionSupportInfo</key>
-	<dict>
-		<key>expire</key>
-		<integer>5</integer>
-		<key>scheme</key>
-		<string>scheme.expiration</string>
-		<key>test</key>
-		<true/>
-		<key>url</key>
-		<string>scheme</string>
-		<key>warn</key>
-		<integer>5</integer>
-	</dict>
 </dict>
 </plist>
