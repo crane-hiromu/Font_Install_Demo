@@ -38,7 +38,7 @@
 		0F73EA3355F53E2663D0ACA3 /* Font_Install_DemoUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = Font_Install_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		136A092C6CA5C8B1E836006B /* Font_Install_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font_Install_DemoUITests.swift; sourceTree = "<group>"; };
 		1C0C316CF3672BAF322A0FB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		257FAEC4BA92EC438D15E763 /* Font_Install_Demo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Font_Install_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		257FAEC4BA92EC438D15E763 /* Font_Install_Demo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; name = Font_Install_Demo.app; path = "Font_Install_Demo-debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F61BF6BE2C1B1916ED77B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FD7C3DDE5D8CE8E85D7F977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3331016FD4BA6E683B3B4E59 /* Font_Install_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Font_Install_Demo.entitlements; sourceTree = "<group>"; };
@@ -163,6 +163,9 @@
 		0F60E7818B57CCF90B489426 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Font,
+				);
 				LastUpgradeCheck = 1020;
 				TargetAttributes = {
 					CD2CA783E370D26627AA9CE5 = {
@@ -179,6 +182,7 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				en,
 				Base,
 			);
 			mainGroup = 509DB0A55F90B7CE59EB03DF;

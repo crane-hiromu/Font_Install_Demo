@@ -64,9 +64,9 @@ targets:
           PRODUCT_BUNDLE_IDENTIFIER: "h.t.Font-Install-Demo"
           DEVELOPMENT_TEAM: R82WJ5W3TV
     scheme:
-    testTargets:
-      - Font_Install_DemoTests
-      - Font_Install_DemoUITests
+      testTargets:
+        - Font_Install_DemoTests
+        - Font_Install_DemoUITests
   Font_Install_DemoTests:
     type: bundle.unit-test
     platform: iOS
