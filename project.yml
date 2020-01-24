@@ -2,15 +2,18 @@ name: Font_Install_Demo
 configs:
   Debug: debug
   Release: release
+  
 options:
   deploymentTarget:
     iOS: "13.0"
+    
 settings:
   base:
     SWIFT_VERSION: 5.0
     PRODUCT_NAME: "$(TARGET_NAME)"
     CURRENT_PROJECT_VERSION: 1
     IPHONEOS_DEPLOYMENT_TARGET: 13.1
+    
 schemes:
   Debug:
     build:
@@ -40,6 +43,7 @@ schemes:
       config: Release
     archive:
       config: Release
+      
 targets:
   Font_Install_Demo:
     type: application
@@ -67,12 +71,16 @@ targets:
       testTargets:
         - Font_Install_DemoTests
         - Font_Install_DemoUITests
+    dependencies:
+      - carthage: SVProgressHUD
+      
   Font_Install_DemoTests:
     type: bundle.unit-test
     platform: iOS
     sources: Font_Install_DemoTests
     dependencies:
       - target: Font_Install_Demo
+      
   Font_Install_DemoUITests:
     type: bundle.ui-testing
     platform: iOS
