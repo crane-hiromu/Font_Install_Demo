@@ -5,3 +5,12 @@ targets:
     platform: iOS
     sources:
       - path: Font_Install_Demo
+    settings:
+        base:
+          CODE_SIGN_ENTITLEMENTS: Font_Install_Demo/Font_Install_Demo.entitlements
+          CODE_SIGN_STYLE: Automatic
+          INFOPLIST_FILE: Font_Install_Demo/Info.plist
+          PRODUCT_BUNDLE_IDENTIFIER: "h.t.Font-Install-Demo"
+          SWIFT_VERSION: 5.0
+          DEVELOPMENT_TEAM: R82WJ5W3TV
+          IPHONEOS_DEPLOYMENT_TARGET: 13.1
