@@ -1,0 +1,7 @@
+name: Font_Install_Demo
+targets:
+  Font_Install_Demo:
+    type: application
+    platform: iOS
+    sources:
+      - path: Font_Install_Demo
