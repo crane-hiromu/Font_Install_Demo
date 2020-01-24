@@ -22,7 +22,9 @@ DerivedData
 Pods/*
 
 # Carthage
-Carthage/Build/
+Carthage/Checkouts
+Carthage/Build
+Carthage/Cartfile.resolved
 
 # others
 *.swp
